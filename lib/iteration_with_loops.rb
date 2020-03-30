@@ -33,7 +33,7 @@ def find_greater_pair(array)
         
     end
   end
-  
+
 
 describe "Write a method called \"find_greater_pair\"" do
   describe "that takes in argument of an Array of Arrays containing pairs of numbers" do
