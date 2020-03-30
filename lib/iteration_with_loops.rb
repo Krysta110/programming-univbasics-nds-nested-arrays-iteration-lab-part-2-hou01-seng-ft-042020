@@ -29,8 +29,8 @@ def find_greater_pair(array)
     element = 0
     while element > array[row].length do
       if larger < array[row][element]
-        larger = array[row][elememnt]
-        
+        larger = array[row][element]
+
     end
   end
 
