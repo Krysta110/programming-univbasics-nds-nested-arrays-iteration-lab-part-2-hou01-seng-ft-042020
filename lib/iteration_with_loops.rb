@@ -10,7 +10,7 @@ while row < src.length do
   element = 0
   min = src[row][element]
   while element < src[row].length do
-    if min < src[row][element]
+    if min > src[row][element]
       min = src[row][element]
     end
     element += 1
