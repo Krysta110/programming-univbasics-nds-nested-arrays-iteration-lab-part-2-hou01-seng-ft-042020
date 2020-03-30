@@ -30,9 +30,12 @@ def find_greater_pair(array)
     while element > array[row].length do
       if larger < array[row][element]
         larger = array[row][element]
-
+      end
+      element +=1
     end
+    row += 1 
   end
+end
 
 
 describe "Write a method called \"find_greater_pair\"" do
