@@ -34,6 +34,7 @@ def find_greater_pair(array)
       end
       element +=1
     end
+    greater_array << larger
     row += 1
   end
   p
