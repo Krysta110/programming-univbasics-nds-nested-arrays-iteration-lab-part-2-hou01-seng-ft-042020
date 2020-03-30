@@ -17,4 +17,5 @@ while row < src.length do
   min_array << min
   row+=1
 end
+p min_array
 end
