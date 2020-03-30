@@ -8,7 +8,7 @@ def find_min_in_nested_arrays(src)
 # while row < src.length do
 #   element = 0
 #   min = src[row][element]
-#   while element > src[row].length do
+#   while element < src[row].length do
 #     if min < src[row][element]
 #       min = src[row][element]
 #     end
@@ -19,3 +19,22 @@ def find_min_in_nested_arrays(src)
 # end
 # p min_array
 end
+
+def find_greater_pair(array)
+  greater_array = []
+  row = 0
+  larger = 0
+
+  while row < array.length do
+    element = 0
+    while element > array[row].length do
+      if larger < array[row][element]
+        larger = array[row][elememnt]
+        
+    end
+  end
+  
+
+describe "Write a method called \"find_greater_pair\"" do
+  describe "that takes in argument of an Array of Arrays containing pairs of numbers" do
+    it "returns the larger numbers from each pair in a new Array" do
