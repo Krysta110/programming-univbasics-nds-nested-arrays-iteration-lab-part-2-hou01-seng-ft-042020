@@ -19,7 +19,7 @@ while row < src.length do
   row+=1
 end
 array_1= min_array
-p min_array
+return min_array
 end
 #
 # def find_greater_pair(array)
