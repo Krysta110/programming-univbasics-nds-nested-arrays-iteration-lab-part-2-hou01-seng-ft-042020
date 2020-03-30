@@ -21,7 +21,7 @@ def find_min_in_nested_arrays(src)
 end
 
 def find_greater_pair(array)
-  # 
+  #
   # describe "Write a method called \"find_greater_pair\"" do
   #   describe "that takes in argument of an Array of Arrays containing pairs of numbers" do
   #     it "returns the larger numbers from each pair in a new Array" do
@@ -45,4 +45,3 @@ def find_greater_pair(array)
   p greater_array
   return greater_array
 end
-
