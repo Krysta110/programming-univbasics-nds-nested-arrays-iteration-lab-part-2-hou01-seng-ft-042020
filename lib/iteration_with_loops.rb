@@ -4,7 +4,7 @@ def find_min_in_nested_arrays(src)
 # min_array = []
 # row = 0
 # min = src[0][0]
-# 
+#
 # while row < src.length do
 #   element = 0
 #   min = src[row][element]
