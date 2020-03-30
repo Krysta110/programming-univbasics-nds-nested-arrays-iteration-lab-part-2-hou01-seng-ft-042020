@@ -21,29 +21,29 @@ while row < src.length do
 end
 p min_array
 end
-
-def find_greater_pair(array)
-  #
-  # describe "Write a method called \"find_greater_pair\"" do
-  #   describe "that takes in argument of an Array of Arrays containing pairs of numbers" do
-  #     it "returns the larger numbers from each pair in a new Array" do
-
-  greater_array = []
-  row = 0
-  larger = 0
-
-  while row < array.length do
-    element = 0
-    larger = 0
-    while element > array[row].length do
-      if larger < array[row][element]
-        larger = array[row][element]
-      end
-      element +=1
-    end
-    greater_array << larger
-    row += 1
-  end
-  p greater_array
-  return greater_array
-end
+#
+# def find_greater_pair(array)
+#   #
+#   # describe "Write a method called \"find_greater_pair\"" do
+#   #   describe "that takes in argument of an Array of Arrays containing pairs of numbers" do
+#   #     it "returns the larger numbers from each pair in a new Array" do
+#
+#   greater_array = []
+#   row = 0
+#   larger = 0
+#
+#   while row < array.length do
+#     element = 0
+#     larger = 0
+#     while element > array[row].length do
+#       if larger < array[row][element]
+#         larger = array[row][element]
+#       end
+#       element +=1
+#     end
+#     greater_array << larger
+#     row += 1
+#   end
+#   p greater_array
+#   return greater_array
+# end
